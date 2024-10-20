@@ -98,12 +98,6 @@ Before you begin, ensure you have the following installed on your machine:
    npm install
    ```
 
-3. Build the frontend application:
-
-   ```bash
-   npm run build
-   ```
-
 4. Ensure you have a `Dockerfile` and `docker-compose.yml` set up for the frontend service.
 
 5. Start the frontend container:
@@ -128,18 +122,4 @@ Before you begin, ensure you have the following installed on your machine:
 - **DELETE** `/api/projects/<id>/` - Delete a project
 - **GET** `/api/view-users/` - List all users
 
-## Contributing
 
-Contributions are welcome! Please create a pull request or open an issue for any suggestions.
-
-## License
-
-This project is licensed under the MIT License.
-```
-
-### Instructions for Use:
-1. Replace `<repository-url>` and `<repository-name>` with your actual GitHub repository URL and name.
-2. Add or modify any sections as needed to reflect additional features or instructions specific to your project.
-3. Make sure that any command mentioned aligns with your project's structure.
-
-Let me know if you need any further changes or additional details!
