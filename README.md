@@ -121,5 +121,6 @@ Before you begin, ensure you have the following installed on your machine:
 - **PUT** `/api/projects/<id>/` - Update an existing project
 - **DELETE** `/api/projects/<id>/` - Delete a project
 - **GET** `/api/view-users/` - List all users
+- **POST** `/api/register/` - Register and Login Users
 
 

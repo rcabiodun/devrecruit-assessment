@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./devrecruit-be
+    volumes:
+      - ./devrecruit-be:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=1 # Set any environment variables you need
+
+  frontend:
+    build:
+      context: ./devrecruit-fe
+    volumes:
+      - ./devrecruit-fe:/app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
