@@ -70,19 +70,6 @@ Before you begin, ensure you have the following installed on your machine:
 
    This command will build the Docker image and start the backend service.
 
-4. **Migrate the Database** (if needed):
-
-   If you’re using PostgreSQL or any database that requires migrations, run:
-
-   ```bash
-   docker-compose exec backend python manage.py migrate
-   ```
-
-5. (Optional) Create a superuser for the Django admin interface:
-
-   ```bash
-   docker-compose exec backend python manage.py createsuperuser
-   ```
 
 ### Frontend Setup
 
